@@ -2,7 +2,8 @@
     "version": "0.0.0",
     "description": "A library for working with PLY-formatted triangle meshes",
     "authors": [
-        "Kasper Kronborg Isager <kasi@itu.dk>"
+        "Kasper Kronborg Isager <kasi@itu.dk>",
+        "Andreas Bjørn Hassing Nielsen <abhn@itu.dk>"
     ],
     "tags": [
     ],
@@ -10,6 +11,11 @@
     "licenseUrl": "https://github.itu.dk/bndn/meshly/blob/master/LICENSE.md",
 
     "dependencies": {
+        "Kdtree": "",
+        "Plyser": "",
+        "Point": "",
+        "Ray": "",
+        "Vector": "",
         "FSharp.Dnx": {
             "type": "build",
             "version": "1.0.0-*"
@@ -28,6 +34,8 @@
     },
     "fsharp": {
         "files": [
+            "Meshly.fsi",
+            "Meshly.fs"
         ]
     }
 }
