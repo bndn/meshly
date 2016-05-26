@@ -2,7 +2,7 @@
     "frameworks": {
         "dnx451": {
             "bin": {
-                "assembly": "Kdtree.0.1.1.dll"
+                "assembly": "Kdtree.0.1.2.dll"
             }
         }
     }
